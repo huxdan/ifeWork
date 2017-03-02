@@ -1,0 +1,117 @@
+/*reset*/
+table,td,tr,ul,ol,li,a,body,h1,h2,h3,h6{
+	margin: 0;
+	padding: 0;
+}
+.comWidth{
+	width: 1280px;
+	margin: 0 auto;
+	background-color: #DEDEDE;
+}
+.header{
+	background-color: #333333;
+	height: 60px;
+}
+.headerNav{
+	float: right;
+	margin-top: 24px;
+}
+.headerNav li{
+	float: left;
+	margin-right: 20px;
+}
+.headerNav li a{
+	font-size: 10px;
+	text-decoration: none;
+	color: #B6B4E5;
+}
+/*content*/
+.content{
+	margin: 23px;
+	background-color: #FFFFFF;
+	padding: 20px 37px 20px 42px;
+}
+.content h2{
+	margin-bottom: 23px;
+}
+.content h3{
+	margin-bottom: 18px;
+	color: #7C7A7B;
+}
+.content span{
+	margin-bottom: 15px;
+	color: #5E5C5D;
+}
+.content p{
+	text-indent: 2em;
+}
+.content ul{
+	list-style: none;
+}
+.content ul li{
+	margin-bottom: 10px;
+}
+
+.contentPic{
+	width: 120px;
+	height: 126px;
+	padding: 20px;
+	border: solid 1px #CDCDCD;
+	margin-bottom: 20px;
+}
+.contentPic span{
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.contentPic img{
+	display: block;
+	width: 120px;
+	height: 90px;
+	text-align: center;
+}
+/*最后一篇文章*/
+.content ol{
+	margin: 20px 40px 20px;
+}
+/*表格样式*/
+.contentForm{
+	width: 1170px;
+	border: solid 1px #CCCCCC;
+	border_collapse:collapse;
+
+}
+.contentForm td{
+	border: solid 1px #CCCCCC;
+	//border_collapse:collapse;
+}
+.FormTitle{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+.FormFooter{
+	background-color: #CCCCCC;
+}
+
+/*提交表单*/
+.contentInput{
+	margin: 0 auto;
+}
+.contentInput tr{
+	height: 40px;
+}
+.InputBtn{
+	height: 36px;
+	width: 1176px;
+	background-color: #3355D0;
+
+}
+/*footer*/
+.footer{
+	height: 69px;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 30px;
+}
