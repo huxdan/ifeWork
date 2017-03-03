@@ -1,0 +1,41 @@
+/*reset*/
+body，img{
+	margin: 0;
+	padding: 0;
+}
+.Main{
+	margin: 10px;
+	background-color: #eee;
+	padding: 20px;
+	overflow: hidden;
+	border: solid 1px #979797;
+	position: relative;
+}
+.LeftArea{
+	width: 160px;
+	background-color: #fff;
+	border: solid 1px #979797;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	padding: 20px;
+
+}
+
+.content{
+	margin-left: 220px;
+	margin-right: 140px;
+	background-color: #fff;
+	border: solid 1px #979797;
+	padding: 20px;
+}
+.RightArea{
+	background-color: #fff;
+	border: solid 1px #979797;
+	padding: 20px;
+	width: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+
+}
